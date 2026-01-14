@@ -30,8 +30,7 @@ flowchart TD
     A[Start Evaluation] --> B[Input: Question, Context, Answer, Metrics]
 
     %% Entity Extraction
-    B --> C[Extract entities, numbers & quantities]
-    C --> E[Merge & deduplicate entities]
+    B --> E[Extract entities & numbers, deduplicate]
 
     %% Decision: Any entities?
     E --> F{Entities found?}
