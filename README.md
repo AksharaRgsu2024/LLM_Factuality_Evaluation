@@ -25,6 +25,7 @@ The below features were created to add more information on semantic relevance an
 ## LLM Judge Evaluation Approach
 
 ```mermaid
+%%{init: {"themeVariables": {"fontSize":"10px"}, "flowchart": {"nodeSpacing": 15, "rankSpacing": 15}}}%%
 flowchart TD
     A[Start Evaluation] --> B[Input: Question, Context, Answer, Metrics]
 
