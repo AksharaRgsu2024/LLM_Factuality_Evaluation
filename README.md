@@ -25,17 +25,17 @@ The below features were created to add more information on semantic relevance an
 ## LLM Judge Evaluation Approach
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Start Evaluation] --> B[Input: Question, Context, Answer, Metrics]
 
-    %% Entity Extraction (C, D, E merged into two nodes)
+    %% Entity Extraction
     B --> C[Extract entities, numbers & quantities]
     C --> E[Merge & deduplicate entities]
 
     %% Decision: Any entities?
     E --> F{Entities found?}
 
-    %% Claim Generation (G + H merged)
+    %% Claim Generation & Verification Prompt
     F -- Yes --> H[Generate claims & verification prompt]
 
     %% LLM Verification
