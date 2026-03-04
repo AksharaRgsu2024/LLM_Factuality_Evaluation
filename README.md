@@ -24,6 +24,8 @@ The below features were created to add more information on semantic relevance an
 
 ## LLM Judge Evaluation Approach
 
+Azure Foundry SDK was used for the LLM judge model.
+
 ```mermaid
 %%{init: {"themeVariables": {"fontSize":"10px"}, "flowchart": {"nodeSpacing": 15, "rankSpacing": 15}}}%%
 flowchart TD
