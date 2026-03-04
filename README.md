@@ -23,9 +23,10 @@ The below features were created to add more information on semantic relevance an
 - Ragas Faithfulness metric: The Faithfulness metric measures how factually consistent a response is with the retrieved context. It ranges from 0 to 1, with higher scores indicating better consistency.
 
 ## LLM Judge Evaluation Approach
+The code was developed using Python, and run on an Azure VM.
+Azure Foundry SDK was used for the LLM judge model. 
 
-Azure Foundry SDK was used for the LLM judge model.
-
+Below is the detailed flowchart of the evaluation approach:
 ```mermaid
 %%{init: {"themeVariables": {"fontSize":"10px"}, "flowchart": {"nodeSpacing": 15, "rankSpacing": 15}}}%%
 flowchart TD
